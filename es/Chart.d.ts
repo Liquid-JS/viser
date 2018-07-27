@@ -1,0 +1,57 @@
+import { AfterViewInit, ElementRef, OnChanges, SimpleChanges, ViewContainerRef } from '@angular/core';
+import { IScale } from 'viser';
+import { ChartContext } from './chartService';
+declare type eventFunc = (chart: any, ev: any) => void;
+interface IBackground {
+    stroke?: string;
+    strokeOpacity?: number;
+    lineWidth?: number;
+    fill?: string;
+    fillOpactiy?: number;
+    radius?: number;
+}
+export declare class Chart implements AfterViewInit, OnChanges {
+    private context;
+    data?: any;
+    height?: number;
+    width?: number;
+    animate?: boolean | object;
+    forceFit?: boolean;
+    background?: IBackground;
+    plotBackground?: IBackground;
+    padding?: number | object | number[];
+    scale?: IScale;
+    onMouseDown?: eventFunc;
+    onMouseMove?: eventFunc;
+    onMouseLeave?: eventFunc;
+    onMouseUp?: eventFunc;
+    onClick?: eventFunc;
+    onDbClick?: eventFunc;
+    onTouchStart?: eventFunc;
+    onTouchMove?: eventFunc;
+    onTouchEnd?: eventFunc;
+    onPlotEnter?: eventFunc;
+    onPlotMove?: eventFunc;
+    onPlotLeave?: eventFunc;
+    onPlotClick?: eventFunc;
+    onPlotDbClick?: eventFunc;
+    chartDiv?: any;
+    private viewId;
+    private componentId;
+    private elem;
+    private vcRef;
+    constructor(context: ChartContext, elem: ElementRef, vcRef: ViewContainerRef);
+    ngAfterViewInit(): void;
+    ngOnChanges(changes: SimpleChanges): void;
+    private combineViewConfig;
+    private combineChartConfig;
+    private convertValueToNum;
+    private combineContentConfig;
+    private changeViewConfig;
+    private getProps;
+    private getViewType;
+    private getComponentName;
+    private initChart;
+    private renderChart;
+}
+export {};
