@@ -1,0 +1,16 @@
+import CommonChart from './core/CommonChart';
+import IAxisConfig, { IAxis } from './typed/IAxis';
+import IChart from './typed/IChart';
+import ICoord, { IPolarCoord, IRectCoord } from './typed/ICoord';
+import IGuideConfig, { IArcGuide, IGuide, ILineGuide, IRectGuide, ITagGuide, ITextGuide } from './typed/IGuide';
+import ILegendConfig, { ILegend } from './typed/ILegend';
+import IMain from './typed/IMain';
+import IScale from './typed/IScale';
+import ISeriesConfig, { ISeries } from './typed/ISeries';
+import ITooltipConfig, { ITooltip } from './typed/ITooltip';
+export { IAxis, IAxisConfig, IChart, ICoord, IRectCoord, IPolarCoord, IGuide, IGuideConfig, ILineGuide, ITextGuide, ITagGuide, IRectGuide, IArcGuide, ILegend, ILegendConfig, ISeries, ISeriesConfig, ITooltip, ITooltipConfig, IScale, IMain, };
+export declare const registerAnimation: (animationName: string, animationFun: any) => void;
+export declare const registerShape: (geoName: string, shapeName: string, shapeFun: any) => void;
+export declare const registerGesture: (gestureFun: any) => void;
+export declare const Global: any;
+export default function (config: any): CommonChart | undefined;
