@@ -1,5 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Input, NgZone,
-  OnChanges, SimpleChanges, ViewChild, ViewContainerRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, InjectionToken, Input, NgZone, OnChanges, SimpleChanges, ViewChild, ViewContainerRef, InjectFlags } from '@angular/core';
 import viser, { IFilter, IScale } from 'viser';
 import { ChartContext } from './chartService';
 import { IRChart } from './typed/IRChart';
@@ -82,6 +81,8 @@ interface IBackground {
   radius?: number;
 }
 
+export const EMBEDDED_VIEW_TOKEN = new InjectionToken<Chart>('v-view')
+
 @Component({
   providers: [ChartContext],
   selector: 'v-chart',
@@ -117,8 +118,8 @@ export class Chart implements AfterViewInit, OnChanges {
   @ViewChild('chartDom', { static: true }) public chartDiv!: ElementRef<HTMLDivElement>;
   private viewId: string = generateRandomNum();
   private componentId = generateRandomNum();
-  private elem: any;
-  private vcRef: any;
+  private elem: ElementRef;
+  private vcRef: ViewContainerRef;
 
   constructor(private context: ChartContext, elem: ElementRef, vcRef: ViewContainerRef, private ngZone: NgZone) {
     this.context = context;
@@ -340,7 +341,12 @@ export class Chart implements AfterViewInit, OnChanges {
   }
 
   private getViewType() {
-    return this.vcRef.parentInjector.elDef.element.name;
+    try {
+      // tslint:disable-next-line: no-bitwise
+      return this.vcRef.injector.get<Chart>(EMBEDDED_VIEW_TOKEN, undefined, InjectFlags.Optional & InjectFlags.SkipSelf)?.elem?.nativeElement?.tagName?.toLowerCase()
+      // tslint:disable-next-line: no-empty
+    } catch (e) { }
+    return '';
   }
 
   /**
