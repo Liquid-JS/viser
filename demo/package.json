@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-demo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "viser demo",
   "scripts": {
     "start": "cross-env UV_THREADPOOL_SIZE=100 && node --max_old_space_size=8192 run.js"

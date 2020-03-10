@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-graph-vue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "viser-graph-vue is vue of viser-graph.",
   "repository": "viserjs/viser-graph-vue",
   "license": "MIT",
@@ -24,11 +24,11 @@
     "analyse": "cross-env NODE_ENV=analyse webpack --progress --config webpack.config.js"
   },
   "peerDependencies": {
-    "vue": ">=1",
-    "tslib": "^1.11.0"
+    "tslib": "^1.11.0",
+    "vue": ">=1"
   },
   "dependencies": {
-    "@lq-viser/viser-graph": "^1.0.3",
+    "@lq-viser/viser-graph": "^1.0.4",
     "@types/node": "*",
     "vue": "^2.5.3"
   },

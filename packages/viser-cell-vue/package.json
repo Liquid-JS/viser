@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-cell-vue",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "viser-cell-vue is vue of viser-cell.",
   "repository": "viserjs/viser-cell-vue",
   "license": "MIT",
@@ -24,11 +24,11 @@
     "analyse": "cross-env NODE_ENV=analyse webpack --progress --config webpack.config.js"
   },
   "peerDependencies": {
-    "vue": ">=1",
-    "tslib": "^1.11.0"
+    "tslib": "^1.11.0",
+    "vue": ">=1"
   },
   "dependencies": {
-    "@lq-viser/viser-cell": "^2.0.3",
+    "@lq-viser/viser-cell": "^2.0.4",
     "@types/node": "*",
     "vue": "^2.5.3"
   },

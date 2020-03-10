@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-react",
-  "version": "2.4.9",
+  "version": "2.4.10",
   "description": "viser-react is react of viser.",
   "repository": "viserjs/viser-react",
   "license": "MIT",
@@ -29,7 +29,7 @@
     "tslib": "^1.11.0"
   },
   "dependencies": {
-    "@lq-viser/viser": "^2.4.10",
+    "@lq-viser/viser": "^2.4.11",
     "@types/node": "*",
     "@types/prop-types": "*",
     "babel-loader": "^8.0.6",
