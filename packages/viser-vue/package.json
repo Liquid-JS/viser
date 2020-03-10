@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-vue",
-  "version": "2.4.8",
+  "version": "2.4.9",
   "description": "viser-vue is vue of viser.",
   "repository": "viserjs/viser-vue",
   "license": "MIT",
@@ -27,18 +27,18 @@
     "vue": ">=1"
   },
   "dependencies": {
-    "@lq-viser/viser": "^2.4.9",
-    "vue": "^2.5.3",
-    "@types/node": "*"
+    "@lq-viser/viser": "^2.4.10",
+    "@types/node": "*",
+    "vue": "^2.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
+    "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-    "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/runtime": "^7.8.4",

@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-graph-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "viser-graph-react is react of viser-graph.",
   "repository": "viserjs/viser-graph-react",
   "license": "MIT",
@@ -28,25 +28,25 @@
     "react-dom": ">15"
   },
   "dependencies": {
+    "@lq-viser/viser-graph": "^1.0.3",
     "@types/node": "*",
     "@types/prop-types": "*",
-    "prop-types": "^15.7.2",
-    "@lq-viser/viser-graph": "*"
+    "prop-types": "^15.7.2"
   },
   "devDependencies": {
-    "@types/react": "^16.9.19",
-    "@types/react-dom": "16.9.5",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",
+    "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/plugin-proposal-export-default-from": "^7.8.3",
     "@babel/plugin-proposal-export-namespace-from": "^7.8.3",
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
-    "@babel/plugin-external-helpers": "^7.8.3",
     "@babel/polyfill": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/runtime": "^7.8.4",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "16.9.5",
     "babel-loader": "^8.0.6",
     "colors": "^1.4.0",
     "cross-env": "^7.0.0",

@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-graph-ng",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "viser-graph-ng is angular of viser-graph.",
   "repository": "viserjs/viser-graph-ng",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "zone.js": "^0.10.2"
   },
   "dependencies": {
+    "@lq-viser/viser-graph": "^1.0.3",
     "@types/core-js": "*",
     "@types/node": "*",
-    "rxjs": "^6.5.4",
-    "@lq-viser/viser-graph": "*"
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "@angular/common": "^9.0.1",

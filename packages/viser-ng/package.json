@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-ng",
-  "version": "2.5.2",
+  "version": "2.6.0",
   "description": "viser-ng is angular of viser.",
   "repository": "viserjs/viser-ng",
   "license": "MIT",
@@ -30,10 +30,10 @@
     "zone.js": "^0.10.2"
   },
   "dependencies": {
+    "@lq-viser/viser": "^2.4.10",
     "@types/core-js": "*",
     "@types/node": "*",
-    "rxjs": "^6.5.4",
-    "@lq-viser/viser": "^2.4.9"
+    "rxjs": "^6.5.4"
   },
   "devDependencies": {
     "@angular/common": "^9.0.1",
