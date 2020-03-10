@@ -1,5 +1,5 @@
 {
-  "name": "viser-graph-vue",
+  "name": "@lq-viser/viser-graph-vue",
   "version": "1.0.1",
   "description": "viser-graph-vue is vue of viser-graph.",
   "repository": "viserjs/viser-graph-vue",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/node": "*",
-    "viser-graph": "*",
+    "@lq-viser/viser-graph": "*",
     "vue": "^2.5.3"
   },
   "devDependencies": {
@@ -61,5 +61,8 @@
     "chart",
     "react",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,6 +1,6 @@
 import Vue, { VNode, ComponentOptions } from 'vue';
 import typedProps from './typed';
-import * as viser from 'viser-cell';
+import * as viser from '@lq-viser/viser-cell';
 
 const regSeries = [
   'pie',

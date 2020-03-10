@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import * as viser from 'viser';
+import * as viser from '@lq-viser/viser';
 import { Chart } from './Chart';
 import { Area, Axis, Bar, Box, Brush, Candle, Contour, Coord, DashLine, DodgeBar, DodgeInterval,
   Edge, ErrorBar, Facet, FacetView, Funnel, Guide, Heatmap,

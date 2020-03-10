@@ -1,5 +1,5 @@
 {
-  "name": "viser-graph-ng",
+  "name": "@lq-viser/viser-graph-ng",
   "version": "1.0.1",
   "description": "viser-graph-ng is angular of viser-graph.",
   "repository": "viserjs/viser-graph-ng",
@@ -33,7 +33,7 @@
     "@types/core-js": "*",
     "@types/node": "*",
     "rxjs": "^6.5.4",
-    "viser-graph": "*"
+    "@lq-viser/viser-graph": "*"
   },
   "devDependencies": {
     "@angular/common": "^9.0.1",
@@ -70,5 +70,8 @@
     "chart",
     "angular",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

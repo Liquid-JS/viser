@@ -1,7 +1,7 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { IView } from 'viser';
+import { IView } from '@lq-viser/viser';
 
 const isReact16 = (ReactDOM as any).createPortal !== undefined;
 

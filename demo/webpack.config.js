@@ -18,13 +18,13 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.json', '.vue'],
     alias: {
       viser: path.resolve(__dirname, '../packages/viser/src/index'),
-      'viser-react': path.resolve(__dirname, '../packages/viser-react/src/index'),
-      'viser-vue': path.resolve(__dirname, '../packages/viser-vue/src/index'),
-      'viser-ng': path.resolve(__dirname, '../packages/viser-ng/src/index'),
-      'viser-cell-vue': path.resolve(__dirname, '../packages/viser-cell-vue/src/index'),
-      'viser-cell': path.resolve(__dirname, '../packages/viser-cell/src/index'),
-      'viser-graph': path.resolve(__dirname, '../packages/viser-graph/src/index'),
-      'viser-graph-ng': path.resolve(__dirname, '../packages/viser-graph-ng/src/index'),
+      '@lq-viser/viser-react': path.resolve(__dirname, '../packages/viser-react/src/index'),
+      '@lq-viser/viser-vue': path.resolve(__dirname, '../packages/viser-vue/src/index'),
+      '@lq-viser/viser-ng': path.resolve(__dirname, '../packages/viser-ng/src/index'),
+      '@lq-viser/viser-cell-vue': path.resolve(__dirname, '../packages/viser-cell-vue/src/index'),
+      '@lq-viser/viser-cell': path.resolve(__dirname, '../packages/viser-cell/src/index'),
+      '@lq-viser/viser-graph': path.resolve(__dirname, '../packages/viser-graph/src/index'),
+      '@lq-viser/viser-graph-ng': path.resolve(__dirname, '../packages/viser-graph-ng/src/index'),
       'vue$': 'vue/dist/vue.esm.js'
     },
     modules: [

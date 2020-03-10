@@ -1,5 +1,5 @@
 {
-  "name": "viser-ng",
+  "name": "@lq-viser/viser-ng",
   "version": "2.5.2",
   "description": "viser-ng is angular of viser.",
   "repository": "viserjs/viser-ng",
@@ -33,7 +33,7 @@
     "@types/core-js": "*",
     "@types/node": "*",
     "rxjs": "^6.5.4",
-    "viser": "^2.4.9"
+    "@lq-viser/viser": "^2.4.9"
   },
   "devDependencies": {
     "@angular/common": "^9.0.1",
@@ -71,5 +71,8 @@
     "chart",
     "angular",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

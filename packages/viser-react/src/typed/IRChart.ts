@@ -1,4 +1,4 @@
-import { IChart, ICoord, IFilter, IScale } from 'viser';
+import { IChart, ICoord, IFilter, IScale } from '@lq-viser/viser';
 
 interface ISChartProps {
   data?: any;

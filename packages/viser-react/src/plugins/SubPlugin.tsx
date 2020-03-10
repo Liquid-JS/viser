@@ -2,7 +2,7 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
 
-import { ISlider } from 'viser';
+import { ISlider } from '@lq-viser/viser';
 
 class Props {
   container?: string;

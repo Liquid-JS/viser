@@ -1,5 +1,5 @@
 {
-  "name": "viser-cell-vue",
+  "name": "@lq-viser/viser-cell-vue",
   "version": "2.0.3",
   "description": "viser-cell-vue is vue of viser-cell.",
   "repository": "viserjs/viser-cell-vue",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/node": "*",
-    "viser-cell": "^2.0.2",
+    "@lq-viser/viser-cell": "^2.0.2",
     "vue": "^2.5.3"
   },
   "devDependencies": {
@@ -61,5 +61,8 @@
     "chart",
     "vue",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "viser-cell",
+  "name": "@lq-viser/viser-cell",
   "version": "2.0.2",
   "description": "viser-cell is a toolkit fit for data vis engineer based on f2.",
   "repository": "viserjs/viser-cell",
@@ -60,5 +60,8 @@
     "f2",
     "chart",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

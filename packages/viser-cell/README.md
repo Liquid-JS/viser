@@ -11,7 +11,7 @@ $ npm install --save viser-cell
 ## Usage
 
 ```js
-import viser from 'viser-cell';
+import viser from '@lq-viser/viser-cell';
 
 const data = [
   { name: 'London', 月份: 'Jan.', 月均降雨量: 18.9 },

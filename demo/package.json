@@ -1,10 +1,11 @@
 {
-  "name": "viser-demo",
+  "name": "@lq-viser/viser-demo",
   "version": "0.1.0",
   "description": "viser demo",
   "scripts": {
     "start": "cross-env UV_THREADPOOL_SIZE=100 && node --max_old_space_size=8192 run.js"
   },
+  "private": true,
   "dependencies": {
     "@angular/compiler": "^9.0.1",
     "@angular/core": "^9.0.1",

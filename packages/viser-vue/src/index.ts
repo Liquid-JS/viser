@@ -1,4 +1,4 @@
-import * as viser from 'viser';
+import * as viser from '@lq-viser/viser';
 import Vue, { ComponentOptions } from 'vue';
 import typedProps from './typed';
 
@@ -213,7 +213,7 @@ const baseChartComponent = {
         const sliderOpts = cleanUndefined(normalizeProps(this._props));
         // reserve this logical to avoid not set container attribute
         if (!cleanUndefined(normalizeProps(this._props)).container) {
-          sliderOpts.container = 'viser-slider-' + generateRandomNum();
+          sliderOpts.container = '@lq-viser/viser-slider-' + generateRandomNum();
         }
         const sliderContainer = document.createElement('div');
         sliderContainer.id = sliderOpts.container;

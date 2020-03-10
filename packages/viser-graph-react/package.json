@@ -1,5 +1,5 @@
 {
-  "name": "viser-graph-react",
+  "name": "@lq-viser/viser-graph-react",
   "version": "1.0.1",
   "description": "viser-graph-react is react of viser-graph.",
   "repository": "viserjs/viser-graph-react",
@@ -31,7 +31,7 @@
     "@types/node": "*",
     "@types/prop-types": "*",
     "prop-types": "^15.7.2",
-    "viser-graph": "*"
+    "@lq-viser/viser-graph": "*"
   },
   "devDependencies": {
     "@types/react": "^16.9.19",
@@ -67,5 +67,8 @@
     "chart",
     "react",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

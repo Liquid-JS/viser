@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { IEdge, INode, ITooltip, IZoom } from 'viser-graph';
+import { IEdge, INode, ITooltip, IZoom } from '@lq-viser/viser-graph';
 
 class Props {}
 

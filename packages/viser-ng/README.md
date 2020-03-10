@@ -16,7 +16,7 @@ import 'reflect-metadata';
 import { Component, enableProdMode, NgModule } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
-import { ViserModule } from 'viser-ng';
+import { ViserModule } from '@lq-viser/viser-ng';
 const DataSet = require('@antv/data-set');
 
 const sourceData = [

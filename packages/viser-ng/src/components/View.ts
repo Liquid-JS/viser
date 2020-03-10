@@ -1,5 +1,5 @@
 import { Component, Input, forwardRef } from '@angular/core';
-import { IFilter, IScale } from 'viser';
+import { IFilter, IScale } from '@lq-viser/viser';
 import { Chart, EMBEDDED_VIEW_TOKEN } from '../Chart';
 
 @Component({

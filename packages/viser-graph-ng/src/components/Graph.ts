@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, Input,
   OnChanges, SimpleChanges, ViewChild, ViewContainerRef } from '@angular/core';
-import { ViserGraph } from 'viser-graph';
+import { ViserGraph } from '@lq-viser/viser-graph';
 import { GraphContext } from './GraphService';
 import { generateRandomNum, retain } from './utils';
 

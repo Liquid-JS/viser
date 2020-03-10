@@ -1,5 +1,5 @@
 {
-  "name": "viser-vue",
+  "name": "@lq-viser/viser-vue",
   "version": "2.4.8",
   "description": "viser-vue is vue of viser.",
   "repository": "viserjs/viser-vue",
@@ -27,7 +27,7 @@
     "vue": ">=1"
   },
   "dependencies": {
-    "viser": "^2.4.9",
+    "@lq-viser/viser": "^2.4.9",
     "vue": "^2.5.3",
     "@types/node": "*"
   },
@@ -61,5 +61,8 @@
     "chart",
     "vue",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -4,7 +4,7 @@ import {
   registerEdge,
   registerLayout,
   registerNode,
-  utils, ViserGraph } from 'viser-graph';
+  utils, ViserGraph } from '@lq-viser/viser-graph';
 import Vue, { ComponentOptions } from 'vue';
 import {cleanUndefined, isAllUndefined, normalizeProps, oneObjectMoreArray} from './utils';
 

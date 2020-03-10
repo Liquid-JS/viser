@@ -7,5 +7,5 @@ function generateRandomNum() {
 @Injectable()
 export class PluginContext {
   public config: any = {};
-  public container: string = 'viser-slider-' + generateRandomNum();
+  public container: string = '@lq-viser/viser-slider-' + generateRandomNum();
 }

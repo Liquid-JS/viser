@@ -1,4 +1,4 @@
-import { IMain } from 'viser';
+import { IMain } from '@lq-viser/viser';
 
 interface ISLite {
   pie?: boolean;

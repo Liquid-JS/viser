@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ElementRef, InjectionToken, Input, NgZone, OnChanges, SimpleChanges, ViewChild, ViewContainerRef, InjectFlags } from '@angular/core';
-import viser, { IFilter, IScale } from 'viser';
+import viser, { IFilter, IScale } from '@lq-viser/viser';
 import { ChartContext } from './chartService';
 import { IRChart } from './typed/IRChart';
 

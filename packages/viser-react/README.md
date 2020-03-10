@@ -11,7 +11,7 @@ $ npm install --save viser-react
 ## Usage
 
 ```jsx
-import { Chart, SmoothLine, Point, Tooltip, Legend, Axis } from 'viser-react';
+import { Chart, SmoothLine, Point, Tooltip, Legend, Axis } from '@lq-viser/viser-react';
 import * as ReactDOM from 'react-dom';
 import * as React from 'react';
 const DataSet = require('@antv/data-set');

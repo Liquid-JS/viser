@@ -1,5 +1,5 @@
 {
-  "name": "viser-react",
+  "name": "@lq-viser/viser-react",
   "version": "2.4.8",
   "description": "viser-react is react of viser.",
   "repository": "viserjs/viser-react",
@@ -32,7 +32,7 @@
     "@types/prop-types": "*",
     "babel-loader": "^8.0.6",
     "prop-types": "^15.7.2",
-    "viser": "^2.4.9"
+    "@lq-viser/viser": "^2.4.9"
   },
   "devDependencies": {
     "@types/react": "*",
@@ -67,5 +67,8 @@
     "chart",
     "react",
     "datavis"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
