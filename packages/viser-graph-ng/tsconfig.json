@@ -24,7 +24,8 @@
   "angularCompilerOptions": {
     "genDir": "es",
     "skipTemplateCodegen": true,
-    "debug": false
+    "debug": false,
+    "enableIvy": false
   },
   "include": [
     "src/**/*"
