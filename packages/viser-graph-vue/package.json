@@ -24,7 +24,8 @@
     "analyse": "cross-env NODE_ENV=analyse webpack --progress --config webpack.config.js"
   },
   "peerDependencies": {
-    "vue": ">=1"
+    "vue": ">=1",
+    "tslib": "^1.11.0"
   },
   "dependencies": {
     "@lq-viser/viser-graph": "^1.0.3",

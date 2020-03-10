@@ -26,8 +26,7 @@
   "peerDependencies": {
     "@angular/common": "^9.0.1",
     "@angular/core": "^9.0.1",
-    "reflect-metadata": "^0.1.13",
-    "zone.js": "^0.10.2"
+    "tslib": "^1.11.0"
   },
   "dependencies": {
     "@lq-viser/viser-graph": "^1.0.3",
