@@ -1,6 +1,6 @@
 {
   "name": "@lq-viser/viser-cell",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "viser-cell is a toolkit fit for data vis engineer based on f2.",
   "repository": "viserjs/viser-cell",
   "license": "MIT",
