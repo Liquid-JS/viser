@@ -38,12 +38,20 @@ module.exports = {
         loader: 'vue-loader',
         options: vueLoaderConfig
       },
-      { test: /\.css$/, loader: 'style-loader!css-loader' },
-      { test: /\.tsx?$/, loader: '@ngtools/webpack' }
+      {
+        test: /\.css$/,
+        use: [
+          { loader: 'css-loader' },
+          { loader: 'style-loader' }
+        ]
+      },
+      {
+        test: /\.tsx?$/,
+        loader: '@ngtools/webpack'
+      }
     ]
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
     new VueLoaderPlugin(),
     new AngularCompilerPlugin({
       tsConfigPath: "./tsconfig.json",
