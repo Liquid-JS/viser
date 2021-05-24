@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "es2015",
     "outDir": "es",
-    "target": "es5",
+    "target": "es2017",
     "importHelpers": true,
     "strict": true,
     "noImplicitAny": true,
@@ -14,7 +14,7 @@
     "declaration": true,
     "lib": [
       "dom",
-      "es2015"
+      "es2017"
     ]
   },
   "include": [

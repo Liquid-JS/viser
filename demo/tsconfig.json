@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es2017",
     "jsx": "react",
     "moduleResolution": "node",
     "noImplicitAny": false,
@@ -16,7 +16,6 @@
     "alwaysStrict": true,
     "skipLibCheck": true,
     "lib": [
-      "es2015",
       "es2017",
       "dom"
     ]
