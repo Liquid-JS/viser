@@ -2,11 +2,13 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import * as viser from '@lq-viser/viser';
 import { Chart } from './Chart';
-import { Area, Axis, Bar, Box, Brush, Candle, Contour, Coord, DashLine, DodgeBar, DodgeInterval,
+import {
+  Area, Axis, Bar, Box, Brush, Candle, Contour, Coord, DashLine, DodgeBar, DodgeInterval,
   Edge, ErrorBar, Facet, FacetView, Funnel, Guide, Heatmap,
- Interval, JitterPoint, Legend, Line, Path, Pie, Point, Polygon,
- Pyramid, Sankey, Schema, Sector, Series, SmoothArea, SmoothLine,
- StackArea, StackBar, StackInterval, Tooltip, Venn, View } from './components/index';
+  Interval, JitterPoint, Legend, Line, Path, Pie, Point, Polygon,
+  Pyramid, Sankey, Schema, Sector, Series, SmoothArea, SmoothLine,
+  StackArea, StackBar, StackInterval, Tooltip, Venn, View
+} from './components/index';
 import { LiteChart } from './LiteChart';
 import { PluginComponent } from './plugins/Plugin';
 import { Slider } from './plugins/Slider';
@@ -109,3 +111,48 @@ export class ViserModule {
 export const registerAnimation = viser.registerAnimation;
 export const registerShape = viser.registerShape;
 export const Global = viser.Global;
+export {
+  Chart,
+  LiteChart,
+  Axis,
+  Brush,
+  Coord,
+  Facet,
+  Guide,
+  Legend,
+  Tooltip,
+  View,
+  FacetView,
+  Series,
+  Pie,
+  Sector,
+  Line,
+  SmoothLine,
+  DashLine,
+  Area,
+  StackArea,
+  SmoothArea,
+  Bar,
+  StackBar,
+  DodgeBar,
+  Point,
+  Funnel,
+  Pyramid,
+  Schema,
+  Box,
+  Candle,
+  Polygon,
+  Contour,
+  Heatmap,
+  Edge,
+  Sankey,
+  ErrorBar,
+  JitterPoint,
+  StackInterval,
+  DodgeInterval,
+  Interval,
+  Path,
+  Venn,
+  PluginComponent,
+  Slider,
+}

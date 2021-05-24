@@ -32,4 +32,8 @@ export {
 
   utils,
   ViserGraph,
+  Graph,
+  Zoom,
+  Node,
+  Edge,
 };
