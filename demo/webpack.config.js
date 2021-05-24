@@ -2,7 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const vueLoaderConfig = require('./vue-loader.config')
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-const { AngularCompilerPlugin } = require('@ngtools/webpack')
+const { AngularWebpackPlugin } = require('@ngtools/webpack')
 
 module.exports = {
   mode: 'development',
@@ -53,7 +53,7 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new AngularCompilerPlugin({
+    new AngularWebpackPlugin({
       tsConfigPath: "./tsconfig.json",
       compilerOptions: {
         enableIvy: true,

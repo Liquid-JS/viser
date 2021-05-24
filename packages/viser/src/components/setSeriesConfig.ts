@@ -260,7 +260,7 @@ export const process = (chart: any, config: IMainConfig, isUpdate: boolean = fal
     }
     for (const item in currSeries) {
       if (currSeries.hasOwnProperty(item)) {
-        EventUtils.setSEvent(chart, 'label', name, currSeries[item]);
+        EventUtils.setSEvent(chart, 'label', '', currSeries[item]);
       }
     }
 

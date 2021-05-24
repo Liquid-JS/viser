@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { PluginComponent } from './Plugin';
+import { BasePluginComponent } from './BasePlugin';
 
 @Component({
   selector: 'v-slider',
   template: `<div id="{{context.container}}"></div>`,
 })
-class Slider extends PluginComponent {
+class Slider extends BasePluginComponent {
   @Input() public xAxis: any;
   @Input() public yAxis: any;
   @Input() public data: any;

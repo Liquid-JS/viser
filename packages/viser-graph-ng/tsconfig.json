@@ -27,7 +27,8 @@
     "genDir": "es",
     "skipTemplateCodegen": true,
     "debug": false,
-    "enableIvy": false
+    "enableIvy": true,
+    "compilationMode": "partial"
   },
   "include": [
     "src/**/*"
